@@ -22,7 +22,7 @@ It includes Visual Studio code settings that hide Javascript files, and a script
 
 ## Setup
 
-Clone the repository and run the install command to download dev dependencies. ():
+Clone the repository and run the install command to download dev dependencies. (Jasmine, Typescript and the Azure Function core tools):
 
 `npm install`
 
