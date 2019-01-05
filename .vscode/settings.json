@@ -1,0 +1,16 @@
+{
+    "azureFunctions.projectRuntime": "~2",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.templateFilter": "Verified",
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.preDeployTask": "installExtensions",
+    "files.exclude": {
+        "obj": true,
+        "bin": true,
+        "**/[^karma.cong.]*.js": true,
+        "**/*.map": true,
+        "**/sample.dat": true,
+        "node_modules": true
+    },
+    "debug.internalConsoleOptions": "neverOpen"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "azure-functions-serverless-typescript-template",
+    "version": "1.0.0",
+    "description": "Azure Functions typescript template",
+    "main": "",
+    "scripts": {
+        "start": "tsc && func host start",
+        "test": "tsc && (jasmine --config=./jasmine.json || exit 0)"
+    },
+    "author": "Jamie Miller",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jasmine": "^3.3.5",
+        "@types/node": "^10.12.18",
+        "azure-functions-core-tools": "^2.3.199",
+        "jasmine": "^3.3.1",
+        "typescript": "^3.2.2"
+    }
+}
