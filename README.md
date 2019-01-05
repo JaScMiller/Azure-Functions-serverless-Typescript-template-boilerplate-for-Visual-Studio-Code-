@@ -16,11 +16,13 @@
 
 ## Description
 
-This is a blank project setup for creating an Azure Functions serverless app using typescript. I find using Typescript functions a good solution for making an API backend easily and quickly for Angular web apps.
+This is a blank project setup for creating an Azure Functions serverless app using Typescript. I find using Typescript functions a good solution for making API backends easily and quickly for Angular web apps.
 
 I have published it as it took me a while to get things set up with this environment and I thought it could help others make a quicker start.
 
-It includes Visual Studio code settings that hide Javascript files, and a script that will automatically compile and run the typescript locally. Hitting F5 in Visual Studio code will also compile the Typescript before running the functions locally.
+It includes Visual Studio code settings that hide Javascript files, and a script that will automatically compile and run the Typescript locally. Hitting F5 in Visual Studio code will also compile the Typescript before running the functions locally.
+
+The code has an MIT license so feel free to start using the repository for whatever you want!
 
 ## Setup
 
@@ -28,11 +30,11 @@ Clone the repository and run the install command to download dev dependencies. (
 
 `npm install`
 
-Running the functions will compile they typescript files and start the functions (Note that F5 will also do this in Visual Studio Code):
+Running the functions will compile the Typescript files and start the functions (Note that F5 will also do this in Visual Studio Code):
 
 `npm run start`
 
-These functions include Jasmine for writing unit tests. Any typescript files in the directory tree ending in spec.ts will be compiled and ran using the command:
+These functions include Jasmine for writing unit tests. Any Typescript files in the directory tree ending in spec.ts will be compiled and ran using the command:
 
 `npm run test`
 
