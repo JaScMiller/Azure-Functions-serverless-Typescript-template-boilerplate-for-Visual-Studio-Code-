@@ -1,6 +1,6 @@
 # Azure Functions serverless Typescript template/boilerplate (for Visual Studio Code)
 
-## Out of the box features
+## Features at a glance
 
 ### Compile and run typescript serverless functions with one command
 
@@ -13,6 +13,8 @@
 ### Includes "Hello, World!" examples for you to base your own functions from
 
 ### Visual Studio Code and Git hide and ignore the compiled Javascript files
+
+## Description
 
 This is a blank project setup for creating an Azure Functions serverless app using typescript. I find using Typescript functions a good solution for making an API backend easily and quickly for Angular web apps.
 
